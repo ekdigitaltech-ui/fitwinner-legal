@@ -12,4 +12,4 @@ Bu depo, FitWinner iOS uygulamasının hukuki belgelerinin GitHub Pages üzerind
 Buradaki HTML o dosyalardan üretilir; elle düzenlenmez. Belge sürümü değişince
 (`docs/legal/CHANGELOG.md`) bu depo yeniden üretilip yayınlanır.
 
-Sürüm: 1.2 (Aydınlatma Metni 1.3, 22 Eylül 2026) · Yürürlük: 10 Eylül 2026 · Veri sorumlusu: EK Digital Technologies OÜ
+Sürüm: Açık Rıza 1.3, Aydınlatma 1.4 (23 Eylül 2026); Gizlilik ve Kullanım Şartları 1.2 (10 Eylül 2026) · Veri sorumlusu: EK Digital Technologies OÜ
