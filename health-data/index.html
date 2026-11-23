@@ -23,7 +23,7 @@
 .fw-legal .fw-lang a{text-decoration:none;border:1px solid #d1d1d6;border-radius:999px;padding:4px 14px;color:#1c1c1e}
 .fw-legal .fw-sep{margin:3em 0}
 </style><div class="fw-legal"><div class="fw-lang"><a href="#en">English</a></div><div id="en" lang="en"><h1>Consumer Health Data Privacy Policy</h1>
-<p><strong>Version:</strong> 1.10 · <strong>Effective:</strong> 23 November 2026 · <strong>Last updated:</strong> 23 November 2026 · <strong>Regulated entity:</strong> EK Digital Technologies OÜ, Sepapaja tn 6, 15551 Tallinn, Estonia (Äriregister 17280400)</p>
+<p><strong>Version:</strong> 1.11 · <strong>Effective:</strong> 23 November 2026 · <strong>Last updated:</strong> 23 November 2026 · <strong>Regulated entity:</strong> EK Digital Technologies OÜ, Sepapaja tn 6, 15551 Tallinn, Estonia (Äriregister 17280400)</p>
 <p>This policy is published for residents of <strong>Washington</strong> (My Health My Data Act, RCW 19.373), <strong>Nevada</strong> (Senate Bill 370, NRS 603A) and <strong>Connecticut</strong> (Connecticut Data Privacy Act, consumer health data provisions), and for any other person who wants to know exactly how the FitWinner app handles consumer health data. It supplements our <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/privacy/">Privacy Policy</a> and <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/kvkk/">Privacy Notice</a>. For consumer health data, this policy prevails over any inconsistent statement in those documents.</p>
 <p>"Consumer health data" means personal information that is linked or reasonably linkable to you and that identifies your past, present or future physical or mental health status, including the categories listed in section 1.</p>
 <hr />
@@ -61,7 +61,7 @@
 <tr>
 <td>Derived indicators</td>
 <td>daily form score; estimated workout effort (derived from workout heart rate); an eating-safety signal derived from your own logs</td>
-<td>To narrow suggestions in the safe direction. The eating-safety signal is recomputed each time and is never stored.</td>
+<td>To narrow suggestions in the safe direction. The eating-safety signal itself is recomputed each time and is not stored; on days when it paused the calorie deficit, that day's target record keeps a short reason code ("paused for safety signal"), which is included in your export and deleted with your data.</td>
 </tr>
 </tbody>
 </table>
@@ -120,7 +120,7 @@
 <h2>6. Your rights and how to exercise them</h2>
 <p>You can, at any time and free of charge:</p>
 <ul>
-<li><strong>Confirm and access:</strong> see everything the app holds about you and export it as a file — <strong>Profile › My data › Export</strong>.</li>
+<li><strong>Confirm and access:</strong> see everything the app holds about you and export it as a file — <strong>Profile › My data › Save a backup file</strong> (choose the option without a password for a readable JSON copy).</li>
 <li><strong>Delete:</strong> delete all your data — <strong>Profile › My data › Delete all my data and start over</strong>. This removes it from the device; backup files you saved elsewhere are yours to delete. Our servers hold no copy of your requests, and neither the stored audit trail nor our processors' records carry an identifier that would let us find your data in them, so there is nothing further we can locate and delete; Anthropic's short abuse-monitoring retention and Supabase's service logs expire on their own. On request we confirm this in writing within the periods below.</li>
 <li><strong>Correct:</strong> correct inaccurate information yourself at any time where you entered it in the app (for example under Profile or in the relevant log); if something cannot be edited there, email us and we will correct it.</li>
 <li><strong>Withdraw consent:</strong> for the health screening, for body measurements, for the wellness check-in, for Apple Health, or for the AI service (each separately) — <strong>Profile › Your consents</strong>. Withdrawal takes effect immediately and deletes AI-generated text stored on your device. Withdrawing the health-screening consent deletes your health-screening answers; no setting is derived from them. If you had declared something that switched a safeguard on, you are asked whether you want to turn on "Protective mode" (calorie deficit off; no macronutrient targets, weight-focused wording or weigh-in reminders; AI comments with extra safeguards) — a preference, not a health record, which you can change at any time under Profile › Goal. The three consents below are independent; withdrawing one does not delete the data of the others, and each withdrawal also deletes your Coach chat history. Withdrawing the body measurements consent deletes all your weight entries, height, body-fat percentage and target weight; your calorie target becomes a target you set yourself, starting from the last calculated value. Withdrawing the wellness check-in consent deletes all your check-in answers and switches the check-in off. Withdrawing the Apple Health consent deletes the data that came from Apple Health (heart-rate readings, effort estimated from heart rate, steps, active energy, sleep from Apple Health, weight from Apple Health) and stops the app reading Apple Health; your workout records stay.</li>
