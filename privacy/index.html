@@ -23,7 +23,7 @@
 .fw-legal .fw-lang a{text-decoration:none;border:1px solid #d1d1d6;border-radius:999px;padding:4px 14px;color:#1c1c1e}
 .fw-legal .fw-sep{margin:3em 0}
 </style><div class="fw-legal"><div class="fw-lang"><a href="#tr">Türkçe</a><a href="#en">English</a><a href="#cs">Čeština</a><a href="#de">Deutsch</a><a href="#et">Eesti</a><a href="#el">Ελληνικά</a><a href="#es">Español</a><a href="#fr">Français</a><a href="#it">Italiano</a><a href="#nl">Nederlands</a><a href="#pl">Polski</a><a href="#pt">Português</a></div><div id="tr" lang="tr"><h1>Gizlilik Politikası</h1>
-<p><strong>Sürüm:</strong> 1.22 · <strong>Yürürlük:</strong> 23 Kasım 2026</p>
+<p><strong>Sürüm:</strong> 1.23 · <strong>Yürürlük:</strong> 24 Kasım 2026</p>
 <p>Bu politika, FitWinner uygulamasının verilerinizle ne yaptığını <strong>sade dille</strong> anlatır. Uygulamayı
 Estonya'da (Avrupa Birliği) yerleşik <strong>EK Digital Technologies OÜ</strong> işletir; verileriniz GDPR'a,
 Türkiye'de yerleşik kullanıcılar için ayrıca KVKK'ya uygun işlenir. Resmî aydınlatma için Aydınlatma
@@ -71,7 +71,7 @@ Sizi uygulamalar veya web siteleri arasında izlemediğimiz için uygulama "Do N
 <p>Sizin adınıza <strong>profil veya hesap kaydı tutmuyoruz.</strong> Uygulama sunucuya yalnızca tek bir durumda veri gönderir: yapay zekâ açık rızanız varsa üç analiz fonksiyonu için (antrenman formu yorumu, plan gerekçesi, besin tanıma). Analiz çağrıları <strong>durumsuzdur</strong>: istek işlenir, yanıt döner, girdiniz kaydedilmez.</p>
 <p>Sunucuda kalan yalnızca üç teknik kayıt var: kötüye kullanımı önlemek için IP adresine dayalı
 saatlik istek sayacı (IP'nin kendisi değil, gizli bir anahtar ve günün tarihiyle üretilmiş özeti; <strong>en çok 2 gün</strong>) ve yapay zekâ çıktısının güvenlik kurallarına takıldığı
-durumlarda kuralın adı ile düzeltilen metin (<strong>kimlik içermez, 90 gün</strong>) ve her analiz isteğinin
+durumlarda kuralın adı ile düzeltilen metin (<strong>kimlik içermez, 90 gün</strong>; kayıt zamanı yalnızca gün olarak, Türkiye'den gelen isteklerde metin olmadan) ve her analiz isteğinin
 hangi rıza metni sürümüyle geldiğini sayan toplu bir sayaç (<strong>kimlik yok, kişisel veri değil</strong>).</p>
 <p>Yapay zekâ isteğinin gerçek FitWinner uygulamasından geldiği <strong>Apple DeviceCheck</strong> ile doğrulanır: telefonunuz Apple'dan tek kullanımlık bir doğrulama jetonu alır, sunucumuz bu jetonu yalnızca Apple'a doğrulatır ve saklamaz. Jeton sağlık, içerik veya kimlik bilgisi taşımaz; amacı hizmetimizin kötüye kullanılmasını önlemektir (meşru menfaat). Türkiye'den gelen isteklerde bu doğrulama yapılmaz.</p>
 <h3>E-posta</h3>
@@ -82,7 +82,7 @@ kanıtlamak için işlenir ve <strong>3 yıl</strong> saklanır. Hostinger bu ku
 işleyen). Uygulama bize e-posta göndermez; yazıp yazmamak sizin seçiminizdir.</p>
 <h3>Yurt dışındaki altyapı</h3>
 <p>Altyapımız yurt dışında: <strong>Supabase</strong> (ABD; veritabanı Japonya), <strong>Anthropic</strong> (ABD, yapay zekâ). Bu yüzden sunucuya giden her veri ayrı bir açık rızaya bağlıdır. Hangi ülkede olursanız olun, takvim etkinliklerinizin adları yapay zekâya <strong>hiç gönderilmez</strong>; besin tanıma metninizdeki iletişim bilgileri <strong>telefonunuzda</strong> yer tutuculara çevrilir ve telefonunuzdan çıkmaz. Maskeleme kurallara dayanır ve her yazımı yakalayamayabilir.</p>
-<p><strong>Türkiye'deyseniz:</strong> antrenman formu yorumu için form skoru seriniz değil yalnızca kaba bir özet gönderilir, plan gerekçesindeki tarihler kaydırılır ve besin tanıma metninizden yalnızca besin sözcükleri, sayılar ve ölçü birimleri gider. İstekleriniz önce İstanbul'daki ara sunucumuza gider (barındırma: İHS Kurumsal Teknoloji Hizmetleri Anonim Şirketi, Türkiye); ara sunucu IP adresinizi atar ve yurt dışına yalnızca anonim içerik çıkar (Aydınlatma Metni 6.3).</p>
+<p><strong>Türkiye'deyseniz</strong> (App Store ülkeniz, cihaz bölgeniz veya saat diliminiz Türkiye ise ya da uygulamada Türkiye'de yaşadığınızı belirttiyseniz): antrenman formu yorumu için form skoru seriniz değil yalnızca kaba bir özet gönderilir, plan gerekçesindeki tarihler kaydırılır ve seans süreleri yalnızca kısa / orta / uzun diye gider, besin tanıma metninizden yalnızca besin sözcükleri, sayılar ve ölçü birimleri gider; yorumlar Türkçe ya da İngilizce üretilir. İstekleriniz önce İstanbul'daki ara sunucumuza gider (barındırma: İHS Kurumsal Teknoloji Hizmetleri Anonim Şirketi, Türkiye); ara sunucu IP adresinizi atar ve yurt dışına yalnızca anonim içerik çıkar (Aydınlatma Metni 6.3).</p>
 <hr />
 <h2>3. Apple Sağlık (HealthKit)</h2>
 <ul>
@@ -165,7 +165,7 @@ bilgilendirilirsiniz.</p>
 <p><strong>ABD'de yaşayanlar:</strong> sağlık verileriniz için ayrıca <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">Tüketici Sağlık Verisi Gizlilik Politikası</a>'na bakın.</p>
 <hr />
 <p>Metnin sonu. Okuduğunuz için teşekkürler.</p></div><hr class="fw-sep"><div id="en" lang="en"><h1>Privacy Policy</h1>
-<p><strong>Version:</strong> 1.22 · <strong>Effective:</strong> 23 November 2026</p>
+<p><strong>Version:</strong> 1.23 · <strong>Effective:</strong> 24 November 2026</p>
 <p>This policy explains, in plain language, what the FitWinner app does with your data. The app is
 operated by <strong>EK Digital Technologies OÜ</strong>, established in Estonia (European Union); your data is
 processed under the GDPR and, for users residing in Türkiye, additionally under the Turkish Personal
@@ -217,7 +217,7 @@ Because we do not track you across apps or websites, the app does not respond di
 <p>We keep <strong>no profile or account record</strong> for you. The app sends data to a server in only one case: if you gave explicit consent to AI, for three analysis functions (training-form read, plan rationale, food recognition). Analysis calls are <strong>stateless</strong>: the request is processed, the answer returns, your input is not stored.</p>
 <p>Only three technical records remain on the server: an hourly request counter based on the IP address to
 prevent abuse (not the IP itself but a digest of it made with a secret key and the day's date; <strong>at most 2 days</strong>) and, when an AI output trips a safety rule, the name of the rule
-and the corrected text (<strong>contains no identity, 90 days</strong>); and an aggregate counter recording which
+and the corrected text (<strong>contains no identity, 90 days</strong>; the time of the record only as the day, without the text for requests coming from Türkiye); and an aggregate counter recording which
 consent-text version each analysis request came with (<strong>no identity, not personal data</strong>).</p>
 <p>We use <strong>Apple DeviceCheck</strong> to verify that an AI request comes from the genuine FitWinner app: your phone obtains a single-use verification token from Apple, and our server only has Apple verify it and does not store it. The token carries no health, content or identity information; its purpose is to prevent abuse of our service (legitimate interest). This check is not used for requests from Türkiye.</p>
 <h3>Email</h3>
@@ -231,9 +231,9 @@ our behalf (processor). The app does not send us email; whether you write is you
 AI). That is why every piece of data that goes to a server depends on a
 separate explicit consent. Whatever country you are in, the titles of your calendar events are <strong>never sent</strong> to the AI;
 contact details in your food-recognition text are turned into placeholders <strong>on your phone</strong> and never leave it. Masking is rule-based and may not catch every spelling.</p>
-<p><strong>If you are in Türkiye:</strong> for the
+<p><strong>If you are in Türkiye</strong> (your App Store country, device region or time zone is Türkiye, or you have stated in the app that you live in Türkiye): for the
 training-form read only a coarse summary is sent, not your form-score series, dates in the plan rationale
-are shifted, and from your food-recognition text only food words, numbers and units of measure are sent. Your requests first go to our relay server in Istanbul (hosting: İHS Kurumsal Teknoloji
+are shifted and session durations are sent only as short / medium / long, and from your food-recognition text only food words, numbers and units of measure are sent; comments are produced in Turkish or English. Your requests first go to our relay server in Istanbul (hosting: İHS Kurumsal Teknoloji
 Hizmetleri Anonim Şirketi, Türkiye); the relay drops your IP address and only anonymous content leaves
 Türkiye (Privacy Notice 6.3).</p>
 <hr />
@@ -321,7 +321,7 @@ the app.</p>
 <p><strong>US residents:</strong> for your health data, see also the <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">Consumer Health Data Privacy Policy</a>.</p>
 <hr />
 <p>End of document. Thank you for reading.</p></div><hr class="fw-sep"><div id="cs" lang="cs"><h1>Zásady ochrany osobních údajů</h1>
-<p><strong>Verze:</strong> 1.22 · <strong>Účinnost od:</strong> 23. listopadu 2026</p>
+<p><strong>Verze:</strong> 1.23 · <strong>Účinnost od:</strong> 24. listopadu 2026</p>
 <p>Tyto zásady srozumitelně vysvětlují, co aplikace FitWinner dělá s vašimi údaji. Aplikaci
 provozuje společnost <strong>EK Digital Technologies OÜ</strong> se sídlem v Estonsku (Evropská unie); vaše údaje jsou
 zpracovávány podle GDPR a u uživatelů s bydlištěm v Turecku navíc podle tureckého zákona o ochraně
@@ -372,7 +372,7 @@ Protože vás nesledujeme napříč aplikacemi ani webovými stránkami, aplikac
 <p>Nevedeme o vás <strong>žádný profil ani záznam účtu</strong>. Aplikace odesílá údaje na server pouze v jednom případě: pokud jste udělili výslovný souhlas s AI, pro tři analytické funkce (výklad tréninkové formy, zdůvodnění plánu, rozpoznávání potravin). Volání analytických funkcí <strong>neuchovávají stav</strong>: požadavek je zpracován, odpověď se vrátí, váš vstup není uložen.</p>
 <p>Na serveru zůstávají pouze tři technické záznamy: hodinové počítadlo požadavků založené na IP adrese
 k zabránění zneužití (nikoli samotná IP adresa, ale její otisk vytvořený pomocí tajného klíče a data daného dne; <strong>nejvýše 2 dny</strong>) a, když výstup AI spustí bezpečnostní pravidlo, název pravidla
-a opravený text (<strong>neobsahuje identifikační údaje, 90 dní</strong>); a souhrnné počítadlo, které zaznamenává, s jakou
+a opravený text (<strong>neobsahuje identifikační údaje, 90 dní</strong>; čas záznamu pouze s přesností na den, u požadavků z Turecka bez textu); a souhrnné počítadlo, které zaznamenává, s jakou
 verzí textu souhlasu každý požadavek na analýzu přišel (<strong>bez identifikačních údajů, nejde o osobní údaje</strong>).</p>
 <p>Pomocí <strong>Apple DeviceCheck</strong> ověřujeme, že požadavek na AI pochází z pravé aplikace FitWinner: váš telefon získá od společnosti Apple jednorázový ověřovací token, který náš server pouze nechá ověřit společností Apple a neukládá. Token neobsahuje žádné údaje o zdraví, obsahu ani totožnosti; slouží k předcházení zneužití naší služby (oprávněný zájem). U požadavků z Turecka se toto ověření nepoužívá.</p>
 <h3>E-mail</h3>
@@ -386,7 +386,7 @@ vaše jméno, e-mailová adresa a obsah korespondence se zpracovávají pouze za
 AI). Proto každý údaj, který jde na server, závisí na
 samostatném výslovném souhlasu. Ať se nacházíte v jakékoli zemi, názvy vašich událostí v kalendáři se AI <strong>vůbec neodesílají</strong>; kontaktní údaje
 v textu, který zadáte pro rozpoznávání potravin, se <strong>ve vašem telefonu</strong> převedou na zástupné značky a nikdy jej neopustí. Maskování je založeno na pravidlech a nemusí zachytit každý způsob zápisu.</p>
-<p><strong>Pokud se nacházíte v Turecku:</strong> pro výklad tréninkové formy se místo řady vašeho skóre formy odesílá pouze hrubý souhrn, data ve zdůvodnění plánu se posunou a z textu, který zadáte pro rozpoznávání potravin, se odesílají pouze slova označující potraviny, čísla a měrné jednotky. Vaše požadavky jdou nejprve na náš
+<p><strong>Pokud se nacházíte v Turecku</strong> (země vašeho App Storu, oblast vašeho zařízení nebo vaše časové pásmo je Turecko nebo je v aplikaci uvedeno, že bydlíte v Turecku): pro výklad tréninkové formy se místo řady vašeho skóre formy odesílá pouze hrubý souhrn, data ve zdůvodnění plánu se posunou a délky tréninků se odesílají pouze jako krátká / střední / dlouhá, z textu, který zadáte pro rozpoznávání potravin, se odesílají pouze slova označující potraviny, čísla a měrné jednotky; výklady se vytvářejí v turečtině nebo angličtině. Vaše požadavky jdou nejprve na náš
 přeposílací server v Istanbulu (hosting: İHS Kurumsal Teknoloji Hizmetleri Anonim Şirketi, Turecko); přeposílací server zahodí
 vaši IP adresu a Turecko opouští pouze anonymní obsah (Informace o zpracování osobních údajů 6.3).</p>
 <hr />
@@ -473,7 +473,7 @@ aplikaci.</p>
 <p><strong>Obyvatelé USA:</strong> pro vaše zdravotní údaje viz také <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">Zásady ochrany spotřebitelských zdravotních údajů</a> (v angličtině).</p>
 <hr />
 <p>Konec dokumentu. Děkujeme za přečtení.</p></div><hr class="fw-sep"><div id="de" lang="de"><h1>Datenschutzerklärung</h1>
-<p><strong>Version:</strong> 1.22 · <strong>Gültig ab:</strong> 23. November 2026</p>
+<p><strong>Version:</strong> 1.23 · <strong>Gültig ab:</strong> 24. November 2026</p>
 <p>Diese Erklärung beschreibt in verständlicher Sprache, was die App FitWinner mit Ihren Daten macht. Die App wird
 von der in Estland (Europäische Union) ansässigen <strong>EK Digital Technologies OÜ</strong> betrieben; Ihre Daten
 werden nach der DSGVO und, für in der Türkei wohnhafte Nutzer, zusätzlich nach dem türkischen Gesetz zum Schutz
@@ -524,7 +524,7 @@ Da wir Sie nicht über Apps oder Websites hinweg verfolgen, reagiert die App nic
 <p>Wir führen <strong>kein Profil und keinen Kontodatensatz</strong> über Sie. Die App sendet nur in einem Fall Daten an einen Server: wenn Sie in die KI ausdrücklich eingewilligt haben, für drei Analysefunktionen (Einschätzung der Trainingsform, Planbegründung, Lebensmittelerkennung). Analyseanfragen sind <strong>zustandslos</strong>: Die Anfrage wird verarbeitet, die Antwort wird zurückgegeben, Ihre Eingabe wird nicht gespeichert.</p>
 <p>Auf dem Server verbleiben nur drei technische Aufzeichnungen: ein stündlicher, auf der IP-Adresse beruhender Anfragezähler zur
 Verhinderung von Missbrauch (nicht die IP-Adresse selbst, sondern ein mit einem geheimen Schlüssel und dem Tagesdatum gebildeter Hashwert; <strong>höchstens 2 Tage</strong>) und, wenn eine KI-Ausgabe eine Sicherheitsregel auslöst, der Name der Regel
-und der korrigierte Text (<strong>enthält keine Identität, 90 Tage</strong>); sowie ein aggregierter Zähler, der festhält, mit welcher
+und der korrigierte Text (<strong>enthält keine Identität, 90 Tage</strong>; Zeitpunkt der Aufzeichnung nur als Tag, bei Anfragen aus der Türkei ohne den Text); sowie ein aggregierter Zähler, der festhält, mit welcher
 Version des Einwilligungstextes jede Analyseanfrage eingegangen ist (<strong>keine Identität, keine personenbezogenen Daten</strong>).</p>
 <p>Mit <strong>Apple DeviceCheck</strong> prüfen wir, ob eine KI-Anfrage von der echten FitWinner-App stammt: Ihr Telefon erhält von Apple ein einmal verwendbares Prüftoken, unser Server lässt es ausschließlich von Apple prüfen und speichert es nicht. Das Token enthält keine Gesundheits-, Inhalts- oder Identitätsdaten; es dient der Verhinderung von Missbrauch unseres Dienstes (berechtigtes Interesse). Bei Anfragen aus der Türkei wird diese Prüfung nicht verwendet.</p>
 <h3>E-Mail</h3>
@@ -538,9 +538,9 @@ E-Mails; ob Sie uns schreiben, entscheiden Sie.</p>
 KI). Deshalb hängt jede Übermittlung von Daten an einen Server von einer
 gesonderten ausdrücklichen Einwilligung ab. In welchem Land Sie sich auch befinden, die Titel Ihrer Kalendertermine werden <strong>überhaupt nicht</strong> an die KI gesendet;
 Kontaktdaten in Ihrem Text für die Lebensmittelerkennung werden <strong>auf Ihrem Telefon</strong> in Platzhalter umgewandelt und verlassen es nie. Die Maskierung ist regelbasiert und erkennt möglicherweise nicht jede Schreibweise.</p>
-<p><strong>Wenn Sie sich in der Türkei befinden:</strong> Für die Einschätzung
+<p><strong>Wenn Sie sich in der Türkei befinden</strong> (Ihr App-Store-Land, Ihre Geräteregion oder Ihre Zeitzone ist die Türkei oder Sie haben in der App angegeben, in der Türkei zu wohnen): Für die Einschätzung
 der Trainingsform wird nicht Ihre Formwert-Reihe, sondern nur eine grobe Zusammenfassung gesendet, Datumsangaben in der Planbegründung
-werden verschoben, und aus Ihrem Text für die Lebensmittelerkennung werden nur Lebensmittelwörter, Zahlen und Maßeinheiten gesendet. Ihre Anfragen gehen zuerst an unseren Relay-Server in Istanbul (Hosting: İHS Kurumsal Teknoloji
+werden verschoben und die Dauer der Einheiten wird nur als kurz / mittel / lang gesendet, und aus Ihrem Text für die Lebensmittelerkennung werden nur Lebensmittelwörter, Zahlen und Maßeinheiten gesendet; Kommentare werden auf Türkisch oder Englisch erstellt. Ihre Anfragen gehen zuerst an unseren Relay-Server in Istanbul (Hosting: İHS Kurumsal Teknoloji
 Hizmetleri Anonim Şirketi, Türkei); der Relay-Server verwirft Ihre IP-Adresse, und nur anonymer Inhalt verlässt die
 Türkei (Datenschutzhinweise 6.3).</p>
 <hr />
@@ -627,7 +627,7 @@ informiert.</p>
 <p><strong>Einwohner der USA:</strong> Für Ihre Gesundheitsdaten siehe auch die <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">Consumer Health Data Privacy Policy</a> (Datenschutzerklärung für Verbraucher-Gesundheitsdaten, auf Englisch).</p>
 <hr />
 <p>Ende des Dokuments. Vielen Dank für Ihre Aufmerksamkeit.</p></div><hr class="fw-sep"><div id="et" lang="et"><h1>Privaatsuspoliitika</h1>
-<p><strong>Versioon:</strong> 1.22 · <strong>Kehtib alates:</strong> 23. november 2026</p>
+<p><strong>Versioon:</strong> 1.23 · <strong>Kehtib alates:</strong> 24. november 2026</p>
 <p>Käesolev poliitika selgitab lihtsas keeles, mida teeb rakendus FitWinner Teie andmetega. Rakendust
 haldab Eestis (Euroopa Liit) asutatud <strong>EK Digital Technologies OÜ</strong>; Teie andmeid töödeldakse
 isikuandmete kaitse üldmääruse (IKÜM) alusel ning Türgis elavate kasutajate puhul lisaks Türgi
@@ -678,7 +678,7 @@ Kuna me ei jälgi Teid rakenduste ega veebisaitide lõikes, ei reageeri rakendus
 <p>Me ei hoia Teie kohta <strong>profiili ega kontokirjet</strong>. Rakendus saadab andmeid serverisse ainult ühel juhul: kui andsite tehisintellekti selgesõnalise nõusoleku, siis kolme analüüsifunktsiooni jaoks (treeninguvormi tõlgendus, plaani põhjendus, toidu tuvastamine). Analüüsipäringud on <strong>olekuta</strong>: päring töödeldakse, vastus tagastatakse, Teie sisendit ei salvestata.</p>
 <p>Serverisse jääb ainult kolm tehnilist kirjet: kuritarvitamise vältimiseks IP-aadressi põhine
 tunnipõhine päringuloendur (mitte IP-aadress ise, vaid selle salajase võtme ja päeva kuupäeva abil moodustatud räsi; <strong>kuni 2 päeva</strong>) ning juhul, kui tehisintellekti väljund rikub
-ohutusreeglit, reegli nimi ja parandatud tekst (<strong>ei sisalda isikut tuvastavaid andmeid, 90 päeva</strong>);
+ohutusreeglit, reegli nimi ja parandatud tekst (<strong>ei sisalda isikut tuvastavaid andmeid, 90 päeva</strong>; kirje aeg ainult päeva täpsusega, Türgist tulevate päringute puhul ilma tekstita);
 ning koondloendur, mis registreerib, millise nõusolekuteksti versiooniga iga analüüsipäring saabus
 (<strong>ei sisalda isikut tuvastavaid andmeid, ei ole isikuandmed</strong>).</p>
 <p><strong>Apple DeviceCheck</strong> abil kontrollime, et tehisintellekti päring tuleb ehtsast FitWinneri rakendusest: Teie telefon saab Apple'ilt ühekordse kontrollmärgi, mille meie server laseb ainult Apple'il kontrollida ega salvesta seda. Märk ei sisalda tervise-, sisu- ega isikuandmeid; selle eesmärk on vältida meie teenuse kuritarvitamist (õigustatud huvi). Türgist tulevate päringute puhul seda kontrolli ei kasutata.</p>
@@ -693,9 +693,9 @@ nimel (volitatud töötleja). Rakendus ei saada meile e-kirju; kas kirjutate mei
 tehisintellekt). Seetõttu sõltub iga serverisse saadetav andmeüksus
 eraldi selgesõnalisest nõusolekust. Olenemata sellest, millises riigis Te asute, <strong>ei saadeta</strong> Teie kalendrisündmuste pealkirju
 tehisintellektile <strong>üldse</strong>; toidu tuvastamise tekstis olevad kontaktandmed muudetakse <strong>Teie telefonis</strong> kohatäideteks ega lahku sealt kunagi. Maskeerimine põhineb reeglitel ega pruugi tabada iga kirjapilti.</p>
-<p><strong>Kui asute Türgis:</strong> treeninguvormi tõlgenduse jaoks ei saadeta
-Teie vormiskoori seeriat, vaid ainult jäme kokkuvõte, plaani põhjenduse kuupäevi nihutatakse ning toidu tuvastamiseks
-sisestatud tekstist saadetakse ainult toidusõnad, arvud ja mõõtühikud. Teie päringud liiguvad esmalt meie Istanbulis asuvasse vahendusserverisse (majutus: İHS
+<p><strong>Kui asute Türgis</strong> (Teie App Store'i riik, seadme piirkond või ajavöönd on Türgi või olete rakenduses märkinud, et elate Türgis): treeninguvormi tõlgenduse jaoks ei saadeta
+Teie vormiskoori seeriat, vaid ainult jäme kokkuvõte, plaani põhjenduse kuupäevi nihutatakse ja treeningute kestus saadetakse ainult kui lühike / keskmine / pikk, toidu tuvastamiseks
+sisestatud tekstist saadetakse ainult toidusõnad, arvud ja mõõtühikud; tõlgendused koostatakse türgi või inglise keeles. Teie päringud liiguvad esmalt meie Istanbulis asuvasse vahendusserverisse (majutus: İHS
 Kurumsal Teknoloji Hizmetleri Anonim Şirketi, Türgi); vahendusserver jätab Teie IP-aadressi kõrvale ja
 Türgist lahkub ainult anonüümne sisu (isikuandmete töötlemise teave 6.3).</p>
 <hr />
@@ -787,7 +787,7 @@ teavitatakse Teid rakenduses.</p>
 <p><strong>USA elanikud:</strong> oma terviseandmete kohta vaadake lisaks <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">tarbija terviseandmete privaatsuspoliitikat (Consumer Health Data Privacy Policy)</a> (inglise keeles).</p>
 <hr />
 <p>Dokumendi lõpp. Täname lugemast.</p></div><hr class="fw-sep"><div id="el" lang="el"><h1>Πολιτική Απορρήτου</h1>
-<p><strong>Έκδοση:</strong> 1.22 · <strong>Έναρξη ισχύος:</strong> 23 Νοεμβρίου 2026</p>
+<p><strong>Έκδοση:</strong> 1.23 · <strong>Έναρξη ισχύος:</strong> 24 Νοεμβρίου 2026</p>
 <p>Η παρούσα πολιτική εξηγεί, σε απλή γλώσσα, τι κάνει η εφαρμογή FitWinner με τα δεδομένα σας. Η
 εφαρμογή λειτουργεί από την <strong>EK Digital Technologies OÜ</strong>, με έδρα στην Εσθονία (Ευρωπαϊκή Ένωση)·
 τα δεδομένα σας υποβάλλονται σε επεξεργασία βάσει του ΓΚΠΔ και, για τους χρήστες που διαμένουν στην
@@ -840,7 +840,7 @@ teavitatakse Teid rakenduses.</p>
 <p>Δεν τηρούμε <strong>κανένα προφίλ ή αρχείο λογαριασμού</strong> για εσάς. Η εφαρμογή αποστέλλει δεδομένα σε διακομιστή μόνο σε μία περίπτωση: αν δώσατε ρητή συγκατάθεση για την τεχνητή νοημοσύνη, για τρεις λειτουργίες ανάλυσης (ανάγνωση φόρμας προπόνησης, αιτιολόγηση πλάνου, αναγνώριση τροφίμων). Οι κλήσεις ανάλυσης είναι <strong>χωρίς κατάσταση (stateless)</strong>: το αίτημα υποβάλλεται σε επεξεργασία, η απάντηση επιστρέφει, η εισαγωγή σας δεν αποθηκεύεται.</p>
 <p>Μόνο τρία τεχνικά αρχεία παραμένουν στον διακομιστή: ένας ωριαίος μετρητής αιτημάτων βάσει διεύθυνσης IP για την
 αποτροπή κατάχρησης (όχι η ίδια η IP, αλλά σύνοψη που παράγεται με μυστικό κλειδί και την ημερομηνία της ημέρας· <strong>το πολύ 2 ημέρες</strong>) και, όταν μια έξοδος τεχνητής νοημοσύνης ενεργοποιεί κανόνα ασφαλείας, το όνομα του κανόνα
-και το διορθωμένο κείμενο (<strong>δεν περιέχει στοιχεία ταυτότητας, 90 ημέρες</strong>)· και ένας συγκεντρωτικός μετρητής που καταγράφει με ποια
+και το διορθωμένο κείμενο (<strong>δεν περιέχει στοιχεία ταυτότητας, 90 ημέρες</strong>· ο χρόνος καταγραφής μόνο ως ημέρα, στα αιτήματα από την Τουρκία χωρίς το κείμενο)· και ένας συγκεντρωτικός μετρητής που καταγράφει με ποια
 έκδοση κειμένου συγκατάθεσης ήρθε κάθε αίτημα ανάλυσης (<strong>χωρίς στοιχεία ταυτότητας, δεν αποτελεί δεδομένα προσωπικού χαρακτήρα</strong>).</p>
 <p>Χρησιμοποιούμε το <strong>Apple DeviceCheck</strong> για να επαληθεύσουμε ότι ένα αίτημα τεχνητής νοημοσύνης προέρχεται από τη γνήσια εφαρμογή FitWinner: το τηλέφωνό σας λαμβάνει από την Apple ένα διακριτικό επαλήθευσης μίας χρήσης, το οποίο ο διακομιστής μας απλώς υποβάλλει στην Apple για επαλήθευση και δεν αποθηκεύει. Το διακριτικό δεν περιέχει δεδομένα υγείας, περιεχομένου ή ταυτότητας· χρησιμεύει στην πρόληψη καταχρήσεων της υπηρεσίας μας (έννομο συμφέρον). Η επαλήθευση αυτή δεν χρησιμοποιείται στα αιτήματα από την Τουρκία.</p>
 <h3>E-mail</h3>
@@ -854,7 +854,7 @@ e-mail σας και το περιεχόμενο της αλληλογραφία
 τεχνητή νοημοσύνη). Για τον λόγο αυτό, κάθε δεδομένο που πηγαίνει σε διακομιστή εξαρτάται από
 χωριστή ρητή συγκατάθεση. Σε όποια χώρα κι αν βρίσκεστε, οι τίτλοι των συμβάντων ημερολογίου σας <strong>δεν αποστέλλονται καθόλου</strong>
 στην τεχνητή νοημοσύνη· τα στοιχεία επικοινωνίας στο κείμενο αναγνώρισης τροφίμων μετατρέπονται σε σύμβολα κράτησης θέσης <strong>στο τηλέφωνό σας</strong> και δεν φεύγουν ποτέ από αυτό. Η απόκρυψη βασίζεται σε κανόνες και ενδέχεται να μην εντοπίζει κάθε τρόπο γραφής.</p>
-<p><strong>Αν βρίσκεστε στην Τουρκία:</strong> για την ανάγνωση φόρμας προπόνησης δεν αποστέλλεται η σειρά βαθμολογιών φόρμας σας αλλά μόνο μια αδρή σύνοψη, οι ημερομηνίες στην αιτιολόγηση του πλάνου μετατοπίζονται, και από το κείμενο που πληκτρολογείτε για αναγνώριση τροφίμων αποστέλλονται μόνο οι λέξεις τροφίμων, οι αριθμοί και οι μονάδες μέτρησης. Τα αιτήματά σας πηγαίνουν πρώτα στον διακομιστή αναμετάδοσής μας στην Κωνσταντινούπολη (φιλοξενία: İHS Kurumsal
+<p><strong>Αν βρίσκεστε στην Τουρκία</strong> (η χώρα του App Store σας, η περιοχή της συσκευής σας ή η ζώνη ώρας σας είναι η Τουρκία ή έχετε δηλώσει στην εφαρμογή ότι μένετε στην Τουρκία): για την ανάγνωση φόρμας προπόνησης δεν αποστέλλεται η σειρά βαθμολογιών φόρμας σας αλλά μόνο μια αδρή σύνοψη, οι ημερομηνίες στην αιτιολόγηση του πλάνου μετατοπίζονται και οι διάρκειες των προπονήσεων αποστέλλονται μόνο ως σύντομη / μεσαία / μεγάλη, και από το κείμενο που πληκτρολογείτε για αναγνώριση τροφίμων αποστέλλονται μόνο οι λέξεις τροφίμων, οι αριθμοί και οι μονάδες μέτρησης· οι ερμηνείες παράγονται στα τουρκικά ή στα αγγλικά. Τα αιτήματά σας πηγαίνουν πρώτα στον διακομιστή αναμετάδοσής μας στην Κωνσταντινούπολη (φιλοξενία: İHS Kurumsal
 Teknoloji Hizmetleri Anonim Şirketi, Τουρκία)· ο διακομιστής αναμετάδοσης απορρίπτει τη διεύθυνση IP σας και μόνο ανώνυμο περιεχόμενο
 εξέρχεται από την Τουρκία (Ενημέρωση Απορρήτου 6.3).</p>
 <hr />
@@ -942,7 +942,7 @@ Teknoloji Hizmetleri Anonim Şirketi, Τουρκία)· ο διακομιστή�
 <p><strong>Κάτοικοι ΗΠΑ:</strong> για τα δεδομένα υγείας σας δείτε επίσης την <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">Πολιτική Απορρήτου Δεδομένων Υγείας Καταναλωτών</a> (στα αγγλικά).</p>
 <hr />
 <p>Τέλος εγγράφου. Σας ευχαριστούμε για την ανάγνωση.</p></div><hr class="fw-sep"><div id="es" lang="es"><h1>Política de Privacidad</h1>
-<p><strong>Versión:</strong> 1.22 · <strong>Vigencia:</strong> 23 de noviembre de 2026</p>
+<p><strong>Versión:</strong> 1.23 · <strong>Vigencia:</strong> 24 de noviembre de 2026</p>
 <p>Esta política explica, en un lenguaje sencillo, qué hace la aplicación FitWinner con sus datos. La
 aplicación es operada por <strong>EK Digital Technologies OÜ</strong>, establecida en Estonia (Unión Europea); sus
 datos se tratan conforme al RGPD y, para los usuarios residentes en Turquía, adicionalmente conforme a
@@ -993,7 +993,7 @@ Como no le rastreamos entre aplicaciones o sitios web, la aplicación no respond
 <p>No conservamos <strong>ningún registro de perfil ni de cuenta</strong> suyo. La aplicación envía datos a un servidor en un único caso: si otorgó el consentimiento explícito de IA, para tres funciones de análisis (lectura de la forma de entrenamiento, justificación del plan, reconocimiento de alimentos). Las llamadas de análisis son <strong>sin estado</strong>: la solicitud se procesa, la respuesta se devuelve y su entrada no se almacena.</p>
 <p>Solo permanecen tres registros técnicos en el servidor: un contador horario de solicitudes indexado por dirección IP para
 prevenir abusos (no la IP en sí, sino un resumen generado con una clave secreta y la fecha del día; <strong>como máximo 2 días</strong>); cuando una salida de la IA activa una regla de seguridad, el nombre de la regla
-y el texto corregido (<strong>no contiene identidad, 90 días</strong>); y un contador agregado que registra con qué
+y el texto corregido (<strong>no contiene identidad, 90 días</strong>; la hora del registro solo como día y, en las solicitudes procedentes de Turquía, sin el texto); y un contador agregado que registra con qué
 versión del texto de consentimiento llegó cada solicitud de análisis (<strong>sin identidad, no son datos personales</strong>).</p>
 <p>Utilizamos <strong>Apple DeviceCheck</strong> para verificar que una solicitud de IA procede de la aplicación FitWinner auténtica: su teléfono obtiene de Apple un token de verificación de un solo uso, que nuestro servidor se limita a validar ante Apple y no conserva. El token no contiene datos de salud, de contenido ni de identidad; sirve para prevenir abusos de nuestro servicio (interés legítimo). Esta verificación no se utiliza en las solicitudes desde Turquía.</p>
 <h3>Correo electrónico</h3>
@@ -1007,7 +1007,7 @@ tratamiento). La aplicación no nos envía correos electrónicos; escribirnos o 
 IA). Por eso cada dato que se envía a un servidor depende de un
 consentimiento explícito separado. Esté en el país que esté, los títulos de sus eventos del calendario <strong>nunca se envían</strong> a la IA; los datos de contacto del
 texto que escribe para el reconocimiento de alimentos se convierten en marcadores <strong>en su teléfono</strong> y nunca salen de él. El enmascaramiento se basa en reglas y puede no detectar todas las grafías.</p>
-<p><strong>Si se encuentra en Turquía:</strong> para la lectura de la forma de entrenamiento no se envía su serie de puntuaciones de forma, sino solo un resumen aproximado; las fechas de la justificación del plan se desplazan, y del texto que escribe para el reconocimiento de alimentos solo se envían las palabras de alimentos, los números y las unidades de medida. Sus
+<p><strong>Si se encuentra en Turquía</strong> (el país de su App Store, la región de su dispositivo o su zona horaria es Turquía, o ha indicado en la aplicación que vive en Turquía): para la lectura de la forma de entrenamiento no se envía su serie de puntuaciones de forma, sino solo un resumen aproximado; las fechas de la justificación del plan se desplazan y las duraciones de las sesiones solo se envían como corta / media / larga, y del texto que escribe para el reconocimiento de alimentos solo se envían las palabras de alimentos, los números y las unidades de medida; las interpretaciones se generan en turco o en inglés. Sus
 solicitudes van primero a nuestro servidor de retransmisión en Estambul (alojamiento: İHS Kurumsal Teknoloji
 Hizmetleri Anonim Şirketi, Turquía); el servidor de retransmisión descarta su dirección IP y solo sale de Turquía
 contenido anónimo (Aviso de Privacidad 6.3).</p>
@@ -1097,7 +1097,7 @@ de la aplicación.</p>
 <p><strong>Residentes en EE. UU.:</strong> para sus datos de salud, consulte también la <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">Política de Privacidad de Datos de Salud del Consumidor</a> (en inglés).</p>
 <hr />
 <p>Fin del documento. Gracias por su lectura.</p></div><hr class="fw-sep"><div id="fr" lang="fr"><h1>Politique de confidentialité</h1>
-<p><strong>Version :</strong> 1.22 · <strong>Entrée en vigueur :</strong> 23 novembre 2026</p>
+<p><strong>Version :</strong> 1.23 · <strong>Entrée en vigueur :</strong> 24 novembre 2026</p>
 <p>Cette politique explique, en langage clair, ce que l'application FitWinner fait de vos données. L'application est
 exploitée par <strong>EK Digital Technologies OÜ</strong>, établie en Estonie (Union européenne) ; vos données sont
 traitées en vertu du RGPD et, pour les utilisateurs résidant en Turquie, également en vertu de la loi turque sur la
@@ -1148,7 +1148,7 @@ Comme nous ne vous suivons pas d'une application ou d'un site à l'autre, l'appl
 <p>Nous ne conservons <strong>aucun profil ni dossier de compte</strong> vous concernant. L'application n'envoie des données à un serveur que dans un seul cas : si vous avez donné votre consentement explicite à l'IA, pour trois fonctions d'analyse (lecture de la forme d'entraînement, justification du plan, reconnaissance des aliments). Les appels d'analyse sont <strong>sans état</strong> : la requête est traitée, la réponse revient, votre saisie n'est pas conservée.</p>
 <p>Seuls trois enregistrements techniques subsistent sur le serveur : un compteur horaire de requêtes fondé sur l'adresse IP pour
 prévenir les abus (non pas l'adresse IP elle-même mais une empreinte calculée avec une clé secrète et la date du jour ; <strong>au plus 2 jours</strong>) ; lorsqu'une sortie de l'IA déclenche une règle de sécurité, le nom de la règle
-et le texte corrigé (<strong>sans aucune identité, 90 jours</strong>) ; et un compteur agrégé enregistrant avec quelle
+et le texte corrigé (<strong>sans aucune identité, 90 jours</strong> ; l'heure de l'enregistrement seulement sous forme de jour, sans le texte pour les requêtes provenant de Turquie) ; et un compteur agrégé enregistrant avec quelle
 version du texte de consentement chaque requête d'analyse a été envoyée (<strong>sans identité, pas une donnée à caractère personnel</strong>).</p>
 <p>Nous utilisons <strong>Apple DeviceCheck</strong> pour vérifier qu'une requête d'IA provient de la véritable application FitWinner : votre téléphone obtient d'Apple un jeton de vérification à usage unique, que notre serveur fait uniquement vérifier par Apple et ne conserve pas. Le jeton ne contient aucune donnée de santé, de contenu ou d'identité ; il sert à prévenir les abus de notre service (intérêt légitime). Cette vérification n'est pas utilisée pour les requêtes provenant de Turquie.</p>
 <h3>E-mail</h3>
@@ -1162,7 +1162,7 @@ d'e-mail ; c'est vous qui choisissez de nous écrire ou non.</p>
 IA). C'est pourquoi chaque donnée qui part vers un serveur dépend d'un
 consentement explicite distinct. Quel que soit le pays où vous vous trouvez, les titres de vos événements de calendrier ne sont <strong>jamais envoyés</strong> à l'IA ; les coordonnées
 figurant dans votre texte de reconnaissance des aliments sont transformées en marqueurs <strong>sur votre téléphone</strong> et ne le quittent jamais. Le masquage repose sur des règles et peut ne pas détecter toutes les graphies.</p>
-<p><strong>Si vous vous trouvez en Turquie :</strong> pour la lecture de la forme d'entraînement, seul un résumé sommaire est envoyé, et non votre série de scores de forme, les dates de la justification du plan sont décalées et, de votre texte de reconnaissance des aliments, seuls les mots désignant des aliments, les nombres et les unités de mesure sont envoyés.
+<p><strong>Si vous vous trouvez en Turquie</strong> (le pays de votre App Store, la région de votre appareil ou votre fuseau horaire est la Turquie, ou vous avez indiqué dans l'application habiter en Turquie) : pour la lecture de la forme d'entraînement, seul un résumé sommaire est envoyé, et non votre série de scores de forme, les dates de la justification du plan sont décalées et les durées des séances ne sont envoyées que comme courtes / moyennes / longues et, de votre texte de reconnaissance des aliments, seuls les mots désignant des aliments, les nombres et les unités de mesure sont envoyés ; les commentaires sont produits en turc ou en anglais.
 Vos requêtes passent d'abord par notre serveur relais à Istanbul (hébergement : İHS Kurumsal Teknoloji Hizmetleri Anonim Şirketi,
 Turquie) ; le relais supprime votre adresse IP et seul un contenu anonyme quitte la Turquie (Notice d'information, 6.3).</p>
 <hr />
@@ -1253,7 +1253,7 @@ dans l'application.</p>
 <p><strong>Résidents des États-Unis :</strong> pour vos données de santé, voir aussi la <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">Politique de confidentialité des données de santé des consommateurs</a>.</p>
 <hr />
 <p>Fin du document. Merci de votre lecture.</p></div><hr class="fw-sep"><div id="it" lang="it"><h1>Informativa sulla privacy</h1>
-<p><strong>Versione:</strong> 1.22 · <strong>In vigore dal:</strong> 23 novembre 2026</p>
+<p><strong>Versione:</strong> 1.23 · <strong>In vigore dal:</strong> 24 novembre 2026</p>
 <p>La presente informativa spiega, in linguaggio semplice, che cosa fa l'app FitWinner con i Suoi dati. L'app è
 gestita da <strong>EK Digital Technologies OÜ</strong>, con sede in Estonia (Unione Europea); i Suoi dati sono
 trattati ai sensi del GDPR e, per gli utenti residenti in Türkiye, anche ai sensi della Legge turca sulla
@@ -1304,7 +1304,7 @@ Poiché non La tracciamo tra app o siti web, l'app non risponde in modo diverso 
 <p>Non conserviamo <strong>alcun profilo o account</strong> a Suo nome. L'app invia dati a un server in un solo caso: se Lei ha prestato il consenso esplicito all'IA, per tre funzioni di analisi (lettura della forma di allenamento, motivazione del piano, riconoscimento degli alimenti). Le chiamate di analisi sono <strong>senza stato</strong>: la richiesta viene elaborata, la risposta viene restituita, i dati da Lei inviati non vengono conservati.</p>
 <p>Sul server restano soltanto tre registrazioni tecniche: un contatore orario delle richieste basato sull'indirizzo IP per
 prevenire abusi (non l'IP in sé, ma un'impronta calcolata con una chiave segreta e la data del giorno; <strong>al massimo 2 giorni</strong>) e, quando un testo generato dall'IA fa scattare una regola di sicurezza, il nome della regola
-e il testo corretto (<strong>nessun dato identificativo, 90 giorni</strong>); e un contatore aggregato che registra con quale
+e il testo corretto (<strong>nessun dato identificativo, 90 giorni</strong>; l'ora della registrazione solo come giorno e, per le richieste provenienti dalla Türkiye, senza il testo); e un contatore aggregato che registra con quale
 versione del testo di consenso è arrivata ciascuna richiesta di analisi (<strong>nessun dato identificativo, non è un dato personale</strong>).</p>
 <p>Usiamo <strong>Apple DeviceCheck</strong> per verificare che una richiesta di IA provenga dall'autentica app FitWinner: il Suo telefono ottiene da Apple un token di verifica monouso, che il nostro server fa soltanto verificare ad Apple e non conserva. Il token non contiene dati relativi alla salute, di contenuto o di identità; serve a prevenire abusi del nostro servizio (legittimo interesse). Questa verifica non si applica alle richieste provenienti dalla Türkiye.</p>
 <h3>E-mail</h3>
@@ -1319,7 +1319,7 @@ IA). Per questo motivo ogni dato che viene inviato a un server dipende da un
 consenso esplicito separato. In qualunque Paese Lei si trovi, i titoli dei Suoi eventi del calendario <strong>non vengono mai
 inviati</strong> all'IA; i recapiti presenti nel testo per il riconoscimento degli alimenti vengono trasformati in segnaposto
 <strong>sul Suo telefono</strong> e non lo lasciano mai. Il mascheramento si basa su regole e potrebbe non riconoscere ogni grafia.</p>
-<p><strong>Se si trova in Türkiye:</strong> per la lettura della forma di allenamento non viene inviata la Sua serie di punteggi di forma, ma soltanto un riepilogo approssimativo; le date nella motivazione del piano vengono spostate e del testo che digita per il riconoscimento degli alimenti vengono inviati soltanto le parole relative agli alimenti, i numeri e le unità di misura. Le Sue richieste raggiungono prima il nostro server di inoltro a Istanbul (hosting: İHS Kurumsal Teknoloji
+<p><strong>Se si trova in Türkiye</strong> (il Paese del Suo App Store, la regione del Suo dispositivo o il Suo fuso orario è la Türkiye, oppure ha indicato nell'app di vivere in Türkiye): per la lettura della forma di allenamento non viene inviata la Sua serie di punteggi di forma, ma soltanto un riepilogo approssimativo; le date nella motivazione del piano vengono spostate e le durate delle sessioni vengono inviate soltanto come breve / media / lunga, e del testo che digita per il riconoscimento degli alimenti vengono inviati soltanto le parole relative agli alimenti, i numeri e le unità di misura; le interpretazioni vengono prodotte in turco o in inglese. Le Sue richieste raggiungono prima il nostro server di inoltro a Istanbul (hosting: İHS Kurumsal Teknoloji
 Hizmetleri Anonim Şirketi, Türkiye); il server di inoltro scarta il Suo indirizzo IP e solo contenuto anonimo lascia la
 Türkiye (Informativa sul trattamento dei dati personali 6.3).</p>
 <hr />
@@ -1408,7 +1408,7 @@ dell'app.</p>
 <p><strong>Residenti negli Stati Uniti:</strong> per i Suoi dati relativi alla salute consultare anche la <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">Consumer Health Data Privacy Policy</a> (informativa sulla privacy dei dati relativi alla salute dei consumatori, in inglese).</p>
 <hr />
 <p>Fine del documento. Grazie per la lettura.</p></div><hr class="fw-sep"><div id="nl" lang="nl"><h1>Privacybeleid</h1>
-<p><strong>Versie:</strong> 1.22 · <strong>Ingangsdatum:</strong> 23 november 2026</p>
+<p><strong>Versie:</strong> 1.23 · <strong>Ingangsdatum:</strong> 24 november 2026</p>
 <p>Dit beleid legt in begrijpelijke taal uit wat de FitWinner-app met uw gegevens doet. De app wordt
 geëxploiteerd door <strong>EK Digital Technologies OÜ</strong>, gevestigd in Estland (Europese Unie); uw gegevens
 worden verwerkt onder de AVG en, voor gebruikers die in Türkiye wonen, aanvullend onder de Turkse
@@ -1459,7 +1459,7 @@ Omdat wij u niet volgen via apps of websites, reageert de app niet anders op "Do
 <p>Wij bewaren <strong>geen profiel- of accountgegevens</strong> over u. De app stuurt in slechts één geval gegevens naar een server: als u AI heeft toegestaan, voor drie analysefuncties (interpretatie van trainingsvorm, plantoelichting, voedselherkenning). Analyseaanroepen worden <strong>niet bewaard (stateless)</strong>: het verzoek wordt verwerkt, het antwoord komt terug, uw invoer wordt niet opgeslagen.</p>
 <p>Op de server blijven slechts drie technische registraties achter: een uurlijkse verzoekteller per IP-adres om
 misbruik te voorkomen (niet het IP-adres zelf, maar een hashwaarde gemaakt met een geheime sleutel en de datum van de dag; <strong>hoogstens 2 dagen</strong>) en, wanneer een AI-uitvoer een veiligheidsregel activeert, de naam van de regel
-en de gecorrigeerde tekst (<strong>bevat geen identiteit, 90 dagen</strong>); en een geaggregeerde teller die registreert met welke
+en de gecorrigeerde tekst (<strong>bevat geen identiteit, 90 dagen</strong>; tijdstip van de registratie alleen als dag, bij verzoeken uit Türkiye zonder de tekst); en een geaggregeerde teller die registreert met welke
 versie van de toestemmingstekst elk analyseverzoek is verzonden (<strong>geen identiteit, geen persoonsgegevens</strong>).</p>
 <p>Met <strong>Apple DeviceCheck</strong> controleren wij of een AI-verzoek van de echte FitWinner-app komt: uw telefoon ontvangt van Apple een eenmalig verificatietoken, dat onze server uitsluitend door Apple laat controleren en niet bewaart. Het token bevat geen gezondheids-, inhouds- of identiteitsgegevens; het dient om misbruik van onze dienst te voorkomen (gerechtvaardigd belang). Bij verzoeken uit Türkiye wordt deze controle niet gebruikt.</p>
 <h3>E-mail</h3>
@@ -1472,8 +1472,8 @@ host deze mailbox namens ons (verwerker). De app stuurt ons geen e-mail; of u on
 AI). Daarom is elk gegeven dat naar een server gaat afhankelijk van een
 afzonderlijke uitdrukkelijke toestemming. In welk land u zich ook bevindt, de titels van uw agenda-items worden <strong>helemaal niet</strong> naar de AI verzonden;
 contactgegevens in uw tekst voor voedselherkenning worden <strong>op uw telefoon</strong> omgezet in plaatsaanduidingen en verlaten deze nooit. Maskering is gebaseerd op regels en vangt mogelijk niet elke schrijfwijze op.</p>
-<p><strong>Als u zich in Türkiye bevindt:</strong> voor de interpretatie van trainingsvorm wordt niet uw vormscorereeks maar alleen een grove samenvatting
-verzonden, datums in de plantoelichting worden verschoven, en uit uw tekst voor voedselherkenning worden alleen voedingswoorden, getallen en maateenheden verzonden. Uw verzoeken gaan eerst naar onze relayserver in Istanbul (hosting: İHS Kurumsal Teknoloji Hizmetleri Anonim
+<p><strong>Als u zich in Türkiye bevindt</strong> (uw App Store-land, apparaatregio of tijdzone is Türkiye, of u heeft in de app aangegeven dat u in Türkiye woont): voor de interpretatie van trainingsvorm wordt niet uw vormscorereeks maar alleen een grove samenvatting
+verzonden, datums in de plantoelichting worden verschoven en de duur van sessies wordt alleen als kort / gemiddeld / lang verzonden, en uit uw tekst voor voedselherkenning worden alleen voedingswoorden, getallen en maateenheden verzonden; commentaren worden in het Turks of het Engels opgesteld. Uw verzoeken gaan eerst naar onze relayserver in Istanbul (hosting: İHS Kurumsal Teknoloji Hizmetleri Anonim
 Şirketi, Türkiye); de relay verwijdert uw IP-adres en alleen anonieme inhoud verlaat Türkiye (Privacyverklaring 6.3).</p>
 <hr />
 <h2>3. Apple Health (HealthKit)</h2>
@@ -1559,7 +1559,7 @@ de app op de hoogte gebracht.</p>
 <p><strong>Inwoners van de Verenigde Staten:</strong> zie voor uw gezondheidsgegevens ook het <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">Privacybeleid voor consumentengezondheidsgegevens</a> (in het Engels).</p>
 <hr />
 <p>Einde van het document. Dank u voor het lezen.</p></div><hr class="fw-sep"><div id="pl" lang="pl"><h1>Polityka prywatności</h1>
-<p><strong>Wersja:</strong> 1.22 · <strong>Obowiązuje od:</strong> 23 listopada 2026</p>
+<p><strong>Wersja:</strong> 1.23 · <strong>Obowiązuje od:</strong> 24 listopada 2026</p>
 <p>Niniejsza polityka wyjaśnia prostym językiem, co aplikacja FitWinner robi z Państwa danymi. Aplikacja
 jest prowadzona przez <strong>EK Digital Technologies OÜ</strong> z siedzibą w Estonii (Unia Europejska); Państwa
 dane są przetwarzane na podstawie RODO, a w przypadku użytkowników zamieszkałych w Turcji dodatkowo
@@ -1610,7 +1610,7 @@ Ponieważ nie śledzimy Państwa w różnych aplikacjach ani witrynach, aplikacj
 <p>Nie przechowujemy <strong>żadnego profilu ani zapisu konta</strong> dla Państwa. Aplikacja wysyła dane na serwer tylko w jednym przypadku: jeśli udzielili Państwo wyraźnej zgody na AI — dla trzech funkcji analitycznych (interpretacja formy treningowej, uzasadnienie planu, rozpoznawanie żywności). Wywołania analityczne są <strong>bezstanowe</strong>: żądanie jest przetwarzane, odpowiedź wraca, Państwa dane wejściowe nie są przechowywane.</p>
 <p>Na serwerze pozostają tylko trzy zapisy techniczne: godzinowy licznik żądań oparty na adresie IP w celu
 zapobiegania nadużyciom (nie sam adres IP, lecz jego skrót tworzony przy użyciu tajnego klucza i daty danego dnia; <strong>najwyżej 2 dni</strong>) oraz — gdy wynik AI naruszy regułę bezpieczeństwa — nazwa reguły
-i skorygowany tekst (<strong>nie zawiera tożsamości, 90 dni</strong>); a także zbiorczy licznik rejestrujący, z którą
+i skorygowany tekst (<strong>nie zawiera tożsamości, 90 dni</strong>; czas zapisu wyłącznie z dokładnością do dnia, a w przypadku żądań pochodzących z Turcji bez tekstu); a także zbiorczy licznik rejestrujący, z którą
 wersją tekstu zgody przyszło każde żądanie analizy (<strong>bez tożsamości, nie są to dane osobowe</strong>).</p>
 <p>Za pomocą <strong>Apple DeviceCheck</strong> sprawdzamy, czy żądanie AI pochodzi z oryginalnej aplikacji FitWinner: Państwa telefon otrzymuje od Apple jednorazowy token weryfikacyjny, który nasz serwer jedynie przekazuje Apple do weryfikacji i nie przechowuje. Token nie zawiera danych dotyczących zdrowia, treści ani tożsamości; służy zapobieganiu nadużyciom naszej usługi (prawnie uzasadniony interes). Ta weryfikacja nie jest stosowana w przypadku żądań z Turcji.</p>
 <h3>E-mail</h3>
@@ -1624,7 +1624,7 @@ imieniu (podmiot przetwarzający). Aplikacja nie wysyła do nas e-maili; to Pań
 AI). Dlatego przekazanie jakichkolwiek danych na serwer zależy od
 odrębnej wyraźnej zgody. Niezależnie od kraju, w którym Państwo przebywają, tytuły Państwa wydarzeń w kalendarzu <strong>w ogóle nie są wysyłane</strong> do AI; dane kontaktowe
 w tekście wpisywanym do rozpoznawania żywności są zamieniane na symbole zastępcze <strong>na Państwa telefonie</strong> i nigdy go nie opuszczają. Maskowanie opiera się na regułach i może nie wychwycić każdej pisowni.</p>
-<p><strong>Jeśli przebywają Państwo w Turcji:</strong> na potrzeby interpretacji formy treningowej zamiast serii Państwa wskaźnika formy wysyłane jest jedynie zgrubne podsumowanie, daty w uzasadnieniu planu są przesuwane, a z tekstu wpisywanego do rozpoznawania żywności wysyłane są wyłącznie słowa oznaczające żywność, liczby i jednostki miary. Państwa żądania trafiają
+<p><strong>Jeśli przebywają Państwo w Turcji</strong> (krajem Państwa App Store, regionem Państwa urządzenia lub Państwa strefą czasową jest Turcja albo w aplikacji wskazano, że mieszkają Państwo w Turcji): na potrzeby interpretacji formy treningowej zamiast serii Państwa wskaźnika formy wysyłane jest jedynie zgrubne podsumowanie, daty w uzasadnieniu planu są przesuwane, czas trwania sesji jest wysyłany wyłącznie jako krótki / średni / długi, a z tekstu wpisywanego do rozpoznawania żywności wysyłane są wyłącznie słowa oznaczające żywność, liczby i jednostki miary; interpretacje są generowane po turecku lub po angielsku. Państwa żądania trafiają
 najpierw do naszego serwera pośredniczącego w Stambule (hosting: İHS Kurumsal Teknoloji Hizmetleri Anonim Şirketi, Turcja); serwer
 pośredniczący odrzuca Państwa adres IP i Turcję opuszcza wyłącznie anonimowa treść (Klauzula informacyjna 6.3).</p>
 <hr />
@@ -1713,7 +1713,7 @@ aplikacji.</p>
 <p><strong>Mieszkańcy USA:</strong> w odniesieniu do Państwa danych dotyczących zdrowia zob. także <a href="https://ekdigitaltech-ui.github.io/fitwinner-legal/health-data/">Politykę prywatności konsumenckich danych dotyczących zdrowia</a> (Consumer Health Data Privacy Policy, w języku angielskim).</p>
 <hr />
 <p>Koniec dokumentu. Dziękujemy za przeczytanie.</p></div><hr class="fw-sep"><div id="pt" lang="pt"><h1>Política de Privacidade</h1>
-<p><strong>Versão:</strong> 1.22 · <strong>Em vigor desde:</strong> 23 de novembro de 2026</p>
+<p><strong>Versão:</strong> 1.23 · <strong>Em vigor desde:</strong> 24 de novembro de 2026</p>
 <p>Esta política explica, em linguagem simples, o que a aplicação FitWinner faz com os seus dados. A
 aplicação é operada pela <strong>EK Digital Technologies OÜ</strong>, estabelecida na Estónia (União Europeia); os
 seus dados são tratados ao abrigo do RGPD e, para os utilizadores residentes na Turquia, adicionalmente
@@ -1765,7 +1765,7 @@ Como não o rastreamos entre aplicações ou sites, a aplicação não responde 
 <p>Não mantemos <strong>qualquer perfil ou registo de conta</strong> seu. A aplicação envia dados para um servidor num único caso: se deu o consentimento explícito para a IA, para três funções de análise (leitura da forma de treino, fundamentação do plano, reconhecimento de alimentos). As chamadas de análise são <strong>sem estado</strong>: o pedido é tratado, a resposta é devolvida e os dados que enviou não são armazenados.</p>
 <p>Apenas três registos técnicos permanecem no servidor: um contador horário de pedidos baseado no
 endereço IP para prevenir abusos (não o próprio IP, mas um resumo gerado com uma chave secreta e a data do dia; <strong>no máximo 2 dias</strong>) e, quando um resultado da IA aciona uma regra de
-segurança, o nome da regra e o texto corrigido (<strong>sem dados de identificação, 90 dias</strong>); e um contador agregado
+segurança, o nome da regra e o texto corrigido (<strong>sem dados de identificação, 90 dias</strong>; a hora do registo apenas como dia e, nos pedidos provenientes da Turquia, sem o texto); e um contador agregado
 que regista com que versão do texto de consentimento cada pedido de análise foi feito (<strong>sem dados de identificação, não são dados pessoais</strong>).</p>
 <p>Utilizamos o <strong>Apple DeviceCheck</strong> para verificar que um pedido de IA provém da aplicação FitWinner genuína: o seu telemóvel obtém da Apple um token de verificação de utilização única, que o nosso servidor apenas submete à verificação da Apple e não guarda. O token não contém dados de saúde, de conteúdo nem de identidade; serve para prevenir abusos do nosso serviço (interesse legítimo). Esta verificação não é utilizada nos pedidos provenientes da Turquia.</p>
 <h3>E-mail</h3>
@@ -1780,7 +1780,7 @@ e-mails; escrever-nos ou não é uma escolha sua.</p>
 um consentimento explícito separado. Seja qual for o país em que se encontre, os títulos dos seus eventos do calendário <strong>nunca são
 enviados</strong> à IA; os dados de contacto no texto de reconhecimento de alimentos são transformados em marcadores <strong>no seu
 telemóvel</strong> e nunca saem dele. A ocultação baseia-se em regras e pode não detetar todas as grafias.</p>
-<p><strong>Se estiver na Turquia:</strong> para a leitura da forma de treino não é enviada a sua série de pontuações de forma, mas apenas um resumo aproximado; as datas da fundamentação do plano são deslocadas e, do texto que introduz para o reconhecimento de alimentos, são enviados apenas as palavras relativas a alimentos, os números e as unidades de medida. Os seus pedidos vão primeiro para o nosso
+<p><strong>Se estiver na Turquia</strong> (o país da sua App Store, a região do seu dispositivo ou o seu fuso horário é a Turquia, ou indicou na aplicação que vive na Turquia): para a leitura da forma de treino não é enviada a sua série de pontuações de forma, mas apenas um resumo aproximado; as datas da fundamentação do plano são deslocadas e as durações das sessões são enviadas apenas como curta / média / longa, e, do texto que introduz para o reconhecimento de alimentos, são enviados apenas as palavras relativas a alimentos, os números e as unidades de medida; as interpretações são produzidas em turco ou em inglês. Os seus pedidos vão primeiro para o nosso
 servidor de retransmissão em Istambul (alojamento: İHS Kurumsal Teknoloji Hizmetleri Anonim Şirketi, Turquia); o servidor de
 retransmissão descarta o seu endereço IP e só conteúdo anónimo sai da Turquia (Aviso de Privacidade 6.3).</p>
 <hr />
